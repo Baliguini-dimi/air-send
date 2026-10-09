@@ -1,0 +1,32 @@
+﻿# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+*.g.dart
+!lib/**/*.g.dart.example
+coverage/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Android — secrets de signature, ne JAMAIS committer
+android/key.properties
+android/app/*.jks
+android/app/*.keystore
+
+# iOS — profils et certificats, ne JAMAIS committer
+ios/Runner.xcarchive
+ios/certs/
+*.p12
+*.mobileprovision
+
+# Divers
+.DS_Store
+*.log
+
+# Fichiers temporaires de Codex
+.codex-temp/
